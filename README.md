@@ -1,2 +1,2 @@
-# **Screensaver based on HTML!**
+# **Timer screensaver based on HTML!**
 ## **Working In Progress**
