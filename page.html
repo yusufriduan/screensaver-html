@@ -6,12 +6,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
-  <body>  
+  <body>
     <header class="header">
       <div class="left-section">
         <h1 class="greetings">Hello!</h1>
         <h2 class="welcome">Welcome to the timer page!</h2>
       </div>
     </header>
+    
+    <div class="container">
+      <img src="1531.png" alt="background">
+      <h1 class="time" id="current-time"></h1>
+    </div> 
+
+    <script>
+      let time =document.getElementById("current-time")
+
+      let d = new Date();
+      time.innerHTML = d.toLocaleTimeString();
+    </script>
   </body>
 </html>
