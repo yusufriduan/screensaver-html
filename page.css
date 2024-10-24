@@ -6,4 +6,15 @@
 .left-section{
   padding-left: 15px;
   color: white;
+  width: 140px;
+}
+
+.greetings{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.welcome{
+  font-size: 10px;
+  font-weight: bold;
 }
