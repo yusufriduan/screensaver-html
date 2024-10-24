@@ -1,20 +1,28 @@
 .header{
-  background-color: blueviolet;
+  background-color: #fffadf;
   border-radius: 10px;
+  box-shadow: 0px 3px  5px rgba(0, 0, 0, 0.2);
+
 }
 
 .left-section{
   padding-left: 15px;
-  color: white;
-  width: 140px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  color: black;
 }
 
 .greetings{
-  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-display: Arial;
+  font-size: 25px;
   font-weight: bold;
+  margin: 0px;
 }
 
 .welcome{
-  font-size: 10px;
-  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-display: Helvetica;
+  font-size: 15px;
+  margin:0px;
 }
