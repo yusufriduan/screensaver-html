@@ -48,12 +48,14 @@
   height: 100vh;
   left: 0;
   top: 0;
+  background-color: black;
 }
 
 .container img{
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
+  opacity: 60%;
 }
 
 .time{
